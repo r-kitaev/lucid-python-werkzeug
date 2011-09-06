@@ -1,0 +1,25 @@
+Source: lucid-python-werkzeug
+Section: python
+Priority: extra
+Maintainer: Alex Dvoretsky (hh.ru project package signing) <alex@dvoretsky.name>
+Uploaders: Alexander Tsvetkov <sickuenser@gmail.com>
+Build-Depends:
+  cdbs,
+  debhelper (>= 7),
+  python-support,
+  python,
+  python-all-dev (>= 2.5),
+  python-setuptools
+Standards-Version: 3.8.4
+
+Package: lucid-python-werkzeug
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, python
+Replaces: python-werkzeug
+Description: Werkzeug is a WSGI utility library for Python.
+ Werkzeug started as a simple collection of various utilities
+ for WSGI applications and has become one of the most advanced WSGI utility modules.
+ It includes a powerful debugger, fully featured request and response objects,
+ HTTP utilities to handle entity tags, cache control headers, HTTP dates,
+ cookie handling, file uploads, a powerful URL routing system and a bunch
+ of community contributed addon modules.
